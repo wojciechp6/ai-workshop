@@ -1,0 +1,31 @@
+ARG CUDA_VERSION=12.6.3
+FROM nvidia/cuda:${CUDA_VERSION}-devel-ubuntu22.04
+
+ARG TORCH_CUDA_TAG=cu126
+# Przykłady: cu118, cu121, cu124, cu126
+
+ENV DEBIAN_FRONTEND=noninteractive \
+    PIP_DISABLE_PIP_VERSION_CHECK=1 \
+    PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    HF_HOME=/root/.cache/huggingface \
+    TRANSFORMERS_CACHE=/root/.cache/huggingface
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    python3 python3-pip python3-dev \
+    git ca-certificates curl \
+    build-essential cmake ninja-build \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN python3 -m pip install --upgrade pip setuptools wheel
+
+# Instalacja PyTorch dopasowanego do CUDA (cu118/cu121/cu124/cu126)
+RUN python3 -m pip install --index-url https://download.pytorch.org/whl/${TORCH_CUDA_TAG} \
+    torch torchvision torchaudio
+
+# vLLM (API zgodne z OpenAI)
+RUN python3 -m pip install vllm
+RUN python3 -m pip install bitsandbytes
+
+EXPOSE 8000
+ENTRYPOINT ["python3", "-m", "vllm.entrypoints.openai.api_server"]

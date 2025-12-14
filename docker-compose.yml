@@ -1,0 +1,69 @@
+services:
+  vllm:
+    build:
+      context: .
+      dockerfile: Dockerfile.vllm
+      args:
+        CUDA_VERSION: ${CUDA_VERSION}
+        TORCH_CUDA_TAG: ${TORCH_CUDA_TAG}
+
+    image: vllm-openai:auto
+    container_name: vllm_auto
+
+    ports:
+      - "8000:8000"
+
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+
+    ipc: host
+    shm_size: "2gb"
+
+    volumes:
+      - ${HF_CACHE_DIR:-~/.cache/huggingface}:/root/.cache/huggingface
+      - ${MODELS_DIR:-./models}:/models
+
+    environment:
+      - HUGGING_FACE_HUB_TOKEN=${HUGGING_FACE_HUB_TOKEN}
+      - HF_TOKEN=${HUGGING_FACE_HUB_TOKEN}
+      - HF_HOME=/root/.cache/huggingface
+      - TRANSFORMERS_CACHE=/root/.cache/huggingface
+
+    command:
+      - --port=8000
+      - --model=${VLLM_MODEL}
+      - --gpu-memory-utilization=0.9
+      - --max-num-seqs=1
+      - --max-num-batched-tokens=1024
+      - --max-model-len=2048
+
+    healthcheck:
+      test: ["CMD", "curl", "-sf", "http://localhost:8000/v1/models"]
+      interval: 10s
+      timeout: 5s
+      retries: 30
+      start_period: 30s
+
+  client:
+    build:
+      context: .
+      dockerfile: Dockerfile.client
+
+    depends_on:
+      vllm:
+        condition: service_healthy
+
+    environment:
+      - VLLM_HOST=vllm
+      - VLLM_PORT=8000
+      - VLLM_MODEL=${VLLM_MODEL}
+      - OUT_PATH=/out
+
+    volumes:
+      - ./out:/out
+
