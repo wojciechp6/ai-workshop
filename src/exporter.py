@@ -1,3 +1,4 @@
+import json
 import re
 import sys
 from pathlib import Path
@@ -124,6 +125,31 @@ def build_rdf(simple_text: str,
     return g
 
 
+def llm_text_to_dict(llm_text: str) -> dict:
+    """
+    Przyjmuje surowy tekst z odpowiedzi LLM,
+    zwraca słownik ze strukturą analizy.
+
+    Zwracany słownik ma strukturę:
+    {
+        "simple_description": str,
+        "research_description": str,
+        "tags": {
+            "klucz": [lista_wartości],
+            ...
+        }
+    }
+    """
+    simple, research, tags_raw = parse_llm_output(llm_text)
+    tags = parse_tags(tags_raw)
+
+    return {
+        "simple_description": simple,
+        "research_description": research,
+        "tags": tags,
+    }
+
+
 def llm_text_to_rdf_turtle(llm_text: str,
                            poster_id: str = "poster1",
                            base_uri: str = "http://example.org/poster/") -> str:
@@ -146,10 +172,11 @@ def main():
     """
     Użycie z linii komend:
 
-    python llm_to_rdf.py input.txt output.ttl poster1
+    python exporter.py input.txt output.ttl [poster_id]  # Wyjście TTL
+    python exporter.py input.txt output.json [poster_id] # Wyjście JSON
     """
     if len(sys.argv) < 3:
-        print("Użycie: python llm_to_rdf.py input.txt output.ttl [poster_id]")
+        print("Użycie: python exporter.py input.txt output.[ttl|json] [poster_id]")
         sys.exit(1)
 
     in_path = Path(sys.argv[1])
@@ -157,10 +184,16 @@ def main():
     poster_id = sys.argv[3] if len(sys.argv) > 3 else "poster1"
 
     llm_text = in_path.read_text(encoding="utf-8")
-    ttl = llm_text_to_rdf_turtle(llm_text, poster_id=poster_id)
 
-    out_path.write_text(ttl, encoding="utf-8")
-    print(f"Zapisano RDF (Turtle) do: {out_path}")
+    # Automatycznie wybierz format na podstawie rozszerzenia pliku
+    if out_path.suffix.lower() == ".json":
+        result = llm_text_to_dict(llm_text)
+        out_path.write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(f"Zapisano dict (JSON) do: {out_path}")
+    else:
+        ttl = llm_text_to_rdf_turtle(llm_text, poster_id=poster_id)
+        out_path.write_text(ttl, encoding="utf-8")
+        print(f"Zapisano RDF (Turtle) do: {out_path}")
 
 
 if __name__ == "__main__":

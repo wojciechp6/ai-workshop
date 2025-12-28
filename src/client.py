@@ -1,12 +1,13 @@
 import base64
 import io
+import json
 import os
 from pathlib import Path
 
 from openai import OpenAI
 
 from loader import load_posters, PROMPT
-from exporter import llm_text_to_rdf_turtle
+from exporter import llm_text_to_rdf_turtle, llm_text_to_dict
 
 client = OpenAI(base_url=f"http://{os.getenv('VLLM_HOST','vllm')}:{os.getenv('VLLM_PORT','8000')}/v1", api_key="")
 
@@ -47,10 +48,12 @@ def analyze_image(prompt, image) -> str:
 def main():
     posters = load_posters()
     for poster in posters:
+        print("Analysing poster:", poster['id'])
         analysis = analyze_image(poster['prompt'], poster['image_array'])
-        ttl = llm_text_to_rdf_turtle(analysis, poster['id'], poster['page_url'])
-        out = Path(os.getenv('OUT_PATH','out')) / f"{poster['id']}.ttl"
-        out.write_text(ttl, encoding="utf-8")
+        result = llm_text_to_dict(analysis)
+        json_str = json.dumps(result, ensure_ascii=False, indent=2)
+        out = Path(os.getenv('OUT_PATH','out')) / f"{poster['id']}.json"
+        out.write_text(json_str, encoding="utf-8")
 
 
 
