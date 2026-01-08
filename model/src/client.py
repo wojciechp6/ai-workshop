@@ -52,7 +52,7 @@ def main():
         analysis = analyze_image(poster['prompt'], poster['image_array'])
         result = llm_text_to_dict(analysis)
         json_str = json.dumps(result, ensure_ascii=False, indent=2)
-        out = Path(os.getenv('OUT_PATH','out')) / f"{poster['id']}.json"
+        out = Path(os.getenv('OUT_PATH','/data/generated')) / f"{poster['id']}.json"
         out.write_text(json_str, encoding="utf-8")
 
 

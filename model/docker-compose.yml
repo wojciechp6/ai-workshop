@@ -62,8 +62,8 @@ services:
       - VLLM_HOST=vllm
       - VLLM_PORT=8000
       - VLLM_MODEL=${VLLM_MODEL}
-      - OUT_PATH=/out
+      - OUT_PATH=/data/generated
 
     volumes:
-      - ./out:/out
+      - ../data:/data
 
