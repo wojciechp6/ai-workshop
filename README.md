@@ -2,7 +2,7 @@
 ### Frontend
 ```sh
 cd web
-docker compose up
+sh run.sh
 ```
 
 ### Description generation

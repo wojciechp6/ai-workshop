@@ -35,8 +35,8 @@ def parse_llm_output(text: str):
             "'WERSJA PROSTA:', 'WERSJA BADAWCZA:', 'ELEMENTY (TAGI):'"
         )
 
-    simple_part = match.group(1).strip()
-    research_part = match.group(2).strip()
+    simple_part = match.group(1).strip().strip("**").strip("\n\n")
+    research_part = match.group(2).strip().strip("**").strip("\n\n")
     tags_raw = match.group(3).strip()
 
     return simple_part, research_part, tags_raw
