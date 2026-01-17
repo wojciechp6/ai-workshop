@@ -71,6 +71,27 @@ h1 {
   margin:0;
   margin-right: 18px; /* dodatkowy odstęp po prawej */
 }
+/* ===== PODSTRONA: estetyka opisów i sekcji ===== */
+.section-title{
+  margin: 18px 0 10px;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.meta-block{
+  margin: 10px 0 14px;
+  padding: 10px 12px;
+  background: #ffffff;
+  border: 1px solid #e6e6e6;
+  border-radius: 6px;
+}
+
+.meta-block > div{
+  margin: 6px 0;         /* ładne odstępy między liniami */
+}
+.source{
+  margin-top: 14px;
+}
 
 #search {
   flex: 1;
@@ -223,7 +244,9 @@ h1 {
 }
 
 .details p {
-  margin: 0 0 12px;
+  /* margin: 0 0 12px; */
+
+  margin: 0 0 14px;
   font-size: .95rem;
   color: #2a2a2a;
 }
