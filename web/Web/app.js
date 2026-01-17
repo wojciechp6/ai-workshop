@@ -14,6 +14,14 @@ function escapeHtml(str){
     .replaceAll("'", "&#039;");
 }
 
+function stripMarkdown(s){
+  return (s ?? "").toString()
+    .replaceAll("**", "")
+    .replaceAll("__", "")
+    .replaceAll("`", "")
+    .replaceAll("*", "");
+}
+
 // ŚCIEŻKI (jeśli masz config.js z window.__API_URL__)
 const BASE_LIST_URL = window.__API_URL__ || "/data/posters.json";
 const GENERATED_DIR = "/data/generated";
@@ -177,6 +185,9 @@ function renderDetails(base, gen){
 
   const title = base?.title || "(brak tytułu)";
   const year = base?.year ? `(${base.year})` : "";
+
+  const img = base?.imageUrl || "";
+  const pageUrl = base?.pageUrl || "-";
 
   // baza (krótki opis / opis źródłowy)
   const baseDesc = base?.description && base.description !== "-" ? base.description : "";
