@@ -1,0 +1,39 @@
+{
+  "simple_description": "Plakat przedstawia żołnierza w czerwonym mundurze. Dominują czerwone i czarne kolory, co buduje dramatyczną atmosferę.  Plakat wyraża walkę i poświęcenie.",
+  "research_description": "Plakat z 1944 roku, prawdopodobnie propagandowy, związany z walkami o wyzwolenie.  Wykorzystuje intensywne kolory i ekspresyjne przedstawienie żołnierza, by wywołać silny emocjonalny odzew u widza. Charakterystyczne są zarysowane, pociągnięte w dół krople krwi, sugerujące okrucieństwo wojny i poświęcenie. Plakat odnosi się do idei walki i ostatecznego zwycięstwa nad okupantem, mając na celu motywowanie żołnierzy i ludności do dalszej walki.  Styl jest typowy dla plakatów wojeniowych z tego okresu, dążących do bezpośredniego oddziaływania na emocje.",
+  "tags": {
+    "Postacie": [
+      "żołnierz",
+      "twarz"
+    ],
+    "Obiekty": [
+      "mundur",
+      "krople krwi",
+      "gwiazda (symbol)"
+    ],
+    "Kolory": [
+      "czerwony",
+      "czarny",
+      "szarość"
+    ],
+    "Nastrój": [
+      "dramatyczny",
+      "poważny"
+    ],
+    "Emocje": [
+      "strach",
+      "determinacja",
+      "smutek"
+    ],
+    "Styl": [
+      "ekspresjonizm",
+      "realizm",
+      "propagandowy"
+    ],
+    "Funkcja": [
+      "propaganda",
+      "motywacja",
+      "informowanie"
+    ]
+  }
+}

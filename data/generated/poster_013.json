@@ -1,0 +1,41 @@
+{
+  "simple_description": "Plakat przedstawia panoramę Lublina. Dominującym elementem jest wieża, która jest wyraźnie wyróżniona na tle miasta.  Kolorystyka jest zdominowana przez błękit i biel.  Nastrój plakatu jest poważny i oficjalny.",
+  "research_description": "Plakat z 1930 roku przedstawia wizualny akcent na miasto Lublin. Ze względu na użycie słów \"Poland, Polen, Pologne\", można przypuszczać, że jest to plakat turystyczny lub propagandowy, mający na celu promocję regionu.  Rotografia barwna, z wykorzystaniem odcieni błękitu i bieli, świadczy o staranności w produkcji.  Styl jest charakterystyczny dla okresu międzywojennego, z elementami estetyki propagandy, łączącymi w sobie elementy narodowe i wizualne z ideami wizualnego przedstawienia. Plakat ma na celu wywołanie uczucia dumy i patriotyzmu względem regionu, a także zachęcić do odwiedzania.  Obraz przedstawia symboliczne elementy architektury, wskazujące na moc i tradycje miasta.",
+  "tags": {
+    "Postacie": [
+      "Turysta",
+      "pies przechodzący"
+    ],
+    "Obiekty": [
+      "Wieża",
+      "Budynki miejskie",
+      "Mapa",
+      "Symbol Polski"
+    ],
+    "Kolory": [
+      "Błękit",
+      "Biały",
+      "Szarość"
+    ],
+    "Nastrój": [
+      "Oficjalny",
+      "Pomimo",
+      "Patriozyzm"
+    ],
+    "Emocje": [
+      "Wzruszenie",
+      "Uznanie",
+      "Uczta"
+    ],
+    "Styl": [
+      "Rotografia",
+      "Minimalizm",
+      "Propaganda"
+    ],
+    "Funkcja": [
+      "Turystyczna",
+      "Promocyjna",
+      "Narodowa"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "simple_description": "Plakat przedstawia ofertę marmuru produkowanego przez firmę Marmur. Na plakacie umieszczono informacje o różnych rodzajach mrozów i produktów z marmuru. Podpis IB sugeruje, że plakat jest reklamą.",
+  "research_description": "Plakat wydaje się być reklamą kamieniarstwa, prawdopodobnie produkowaną przez firmę Marmur. Dominującą formą wizualną są ilustracje różnych elementów z marmuru – bloki, płytki, kominki, pomniki itp. Plakat ma na celu zaprezentowanie szerokiego asortymentu produktów i potencjalnych zastosowań marmuru. Nadruk, wraz z podaną datą 192, sugeruje epokę międzywojenną, prawdopodobnie okres odbudowy i wzrostu gospodarczego. Podpis \"IB\" może oznaczać inżyniera lub odpowiedzialnego za reklamę. Użycie prostego, informacyjnego stylu graficznego typowego dla tego okresu, podkreśla funkcjonalność i profesjonalizm firmy.",
+  "tags": {
+    "Postacie": [
+      "BRAK"
+    ],
+    "Obiekty": [
+      "bloki",
+      "płytki",
+      "kominki",
+      "pomniki",
+      "surowiec",
+      "narzędzia"
+    ],
+    "Kolory": [
+      "szarości",
+      "czerwienie",
+      "czernie",
+      "brązy"
+    ],
+    "Nastrój": [
+      "poważny",
+      "profesjonalny"
+    ],
+    "Emocje": [
+      "BRAK"
+    ],
+    "Styl": [
+      "realistyczny",
+      "informacyjny"
+    ],
+    "Funkcja": [
+      "reklama",
+      "informacja",
+      "promocja"
+    ]
+  }
+}

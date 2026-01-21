@@ -1,0 +1,43 @@
+{
+  "simple_description": "Plakat przedstawia mężczyznę z bronią. Dominują czerwone i czarne barwy.  Nastrój jest poważny i alarmujący. Plakat ma zachęcić do działania.",
+  "research_description": "Plakat z 1944 roku został stworzony w okresie II wojny światowej, prawdopodobnie w kontekście konfliktu z ZSRR i jego wspólnikami.  Jest to propaganda mająca na celu wzbudzenie w obywatelach strachu przed bolszewizmem i zachęcenie do walki o ocalenie kraju. Użycie czerwieni i symbolu gwiazdy (symbol ZSRR) wyraźnie wskazuje na stronę antybolszewicką.  Tekst \"Bolszewizm grozi! Stawaj do pracy!\" stanowi bezpośredni wezwanie do działania, mający na celu zmotywowanie ludzi do obrony państwa.  Plakat wykorzystuje obraz wojownika z bronią, reprezentującego żołnierzy i obywateli broniących kraju.  Kompozycja jest zwięzła i skierowana bezpośrednio do widza.",
+  "tags": {
+    "Postacie": [
+      "mężczyzna",
+      "żołnierz",
+      "dłoń"
+    ],
+    "Obiekty": [
+      "broń",
+      "gwiazda",
+      "tekst",
+      "znak",
+      "kropka"
+    ],
+    "Kolory": [
+      "czerwony",
+      "czarny",
+      "szarości"
+    ],
+    "Nastrój": [
+      "poważny",
+      "alarmujący",
+      "groźny"
+    ],
+    "Emocje": [
+      "strach",
+      "determinacja",
+      "zniechęcenie"
+    ],
+    "Styl": [
+      "propagandowy",
+      "realistyczny",
+      "zaryskiowany"
+    ],
+    "Funkcja": [
+      "wezwanie do działania",
+      "propaganda",
+      "mobilizacja."
+    ]
+  }
+}

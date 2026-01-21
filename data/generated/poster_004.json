@@ -1,0 +1,40 @@
+{
+  "simple_description": "Plakat przedstawia postać żołnierza. Dominują kolory czerwony i czarny. Nastrój jest poważny i pełen determinacji. Plakat jest skierowany do odbiorcy jako zaproszenie do działania.",
+  "research_description": "Plakat wydaje się być propagandowym, wykorzystującym obraz żołnierza w roli symbolu walki i poświęcenia.  Warto zauważyć, że kontekst historyczny - rok 1944, sugeruje sytuację na froncie w trakcie walk o Warszawę.  Kluczowe jest napięcie i atmosfera determinacji, która ma wzbudzić w widzu poczucie obowiązku i gotowości do walki. Plakat ma na celu zmotywowanie społeczeństwa do oporu i podtrzymania wysiłków wojennych.  Użycie prostego, monumentalnego stylu jest typowe dla propagandy wojennego, mającego na celu wywołanie silnych emocji i unifikację działań.",
+  "tags": {
+    "Postacie": [
+      "Żołnierz",
+      "Figura męska"
+    ],
+    "Obiekty": [
+      "Monument",
+      "Lampę uliczna",
+      "Budynek",
+      "Kamień"
+    ],
+    "Kolory": [
+      "Czerwony",
+      "Czarny",
+      "Szarość"
+    ],
+    "Nastrój": [
+      "Poważny",
+      "Opatrzny"
+    ],
+    "Emocje": [
+      "Determinacja",
+      "Spojrzenie",
+      "Wądrość"
+    ],
+    "Styl": [
+      "Propaganda",
+      "Epicka",
+      "Realistyczny"
+    ],
+    "Funkcja": [
+      "Zachęta do walki",
+      "Mobilizacja",
+      "Propaganda"
+    ]
+  }
+}

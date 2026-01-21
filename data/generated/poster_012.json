@@ -1,0 +1,38 @@
+{
+  "simple_description": "Plakat przedstawia mężczyznę z groźnym wyrazem twarzy. Centralnym elementem jest symbol kości, wskazujący na ofiary. Slogan ostrzega przed zagrożeniem. Plakat ma charakter propagandowy i budzi obawy.",
+  "research_description": "Plakat jest typowym przykładem propagandy anty-sowieckiej, wykorzystującą dramatyczne obrazy i emocje, aby zniechęcić do dalszego wspierania idei rewolucji.  Użyto silnego kontrastu i nastrojowego światłocienia, aby podkreślić grozę i straszliwość sytuacji.  Tekst \"Katyń - Przesłoga Europy!\" bezpośrednio odnosi się do zbrodni katyńskiej i sugeruje, że wszelkie próby walki z komunizmem mogą prowadzić do podobnych tragedii. Plakat ma na celu wzbudzenie strachu i obrzydzenia w stosunku do Związku Radzieckiego, mobilizując społeczeństwo do walki z propagowaniem idei socjalistycznych. Zestawienie obrazu z kośćmi i wyrazistego portretu mężczyzny ma na celu przedstawienie katastrofy ludzkiej, która ma na celu odzwierciedlenie strachu i świadomości ogromu zbrodni.",
+  "tags": {
+    "Postacie": [
+      "Mężczyzna",
+      "szkielet"
+    ],
+    "Obiekty": [
+      "Kości",
+      "tekst"
+    ],
+    "Kolory": [
+      "Czerwień",
+      "Szarość",
+      "Brąz"
+    ],
+    "Nastrój": [
+      "Mroczny",
+      "poważny"
+    ],
+    "Emocje": [
+      "Strach",
+      "obawa",
+      "wstręt"
+    ],
+    "Styl": [
+      "propagandowy",
+      "realistyczny",
+      "symboliczny"
+    ],
+    "Funkcja": [
+      "Przestroga",
+      "apel",
+      "mobilizacja"
+    ]
+  }
+}

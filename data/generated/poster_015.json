@@ -1,0 +1,40 @@
+{
+  "simple_description": "Plakat przedstawia kopalnię marmuru.  Na plakacie widoczne są różne formy marmuru i ilustracje procesu jego wydobycia.  Widać nazwę kopalni i informacje o oferowanych produktach.  Całość ma charakter informacyjny i reklamowy.",
+  "research_description": "Plakat przedstawia propagandę kopalni marmuru \"Imgraniczny\", zlokalizowaną w Kopalniach Górniczych Kieleckich. Jest to reklama skierowana do potencjalnych klientów – głównie do budowniczych, kowbojów i restauratorów. Plakat ma na celu promowanie kopalni i jej produktów, czyli marmuru w różnych formach: płyty, bloków, surowca oraz gotowych kominkowych elementach. Grafika przedstawia pracę górników wydobywających marmur, co ma budzić wrażenie siły i profesjonalizmu. Wykorzystywane są typowe dla epoki stylistyki reklamowej, łączące realizm z elementami ułatwiającymi zapamiętanie i zrozumienie.",
+  "tags": {
+    "Postacie": [
+      "Górnik",
+      "robotnik"
+    ],
+    "Obiekty": [
+      "Marmur",
+      "płyty",
+      "kopalnia",
+      "kominek",
+      "blok"
+    ],
+    "Kolory": [
+      "Szarość",
+      "brąz",
+      "czerwony",
+      "czarny"
+    ],
+    "Nastrój": [
+      "Pracowity",
+      "industrialny"
+    ],
+    "Emocje": [
+      "Determinacja",
+      "ciężka praca"
+    ],
+    "Styl": [
+      "Realizm",
+      "propagandowy"
+    ],
+    "Funkcja": [
+      "Reklama",
+      "informacja",
+      "sprzedaż"
+    ]
+  }
+}

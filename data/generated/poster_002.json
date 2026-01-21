@@ -1,0 +1,43 @@
+{
+  "simple_description": "Plakat przedstawia postać mężczyzny w czerwonym stroju. Na obrazie widoczny jest chaos i śmierć. Plakat ma charakter propagandowy, mający na celu mobilizację i demonstrowanie zagrożenia.",
+  "research_description": "Plakat \"Wolność Bolszewicka\" powstał w 1920 roku, ale później został wykorzystany przez propagandę niemiecką podczas II wojny światowej.  Jego oryginalne przeznaczenie było promujące ideę walki z bolszewizmem po wojnie polsko-bolszewickiej.  Jednakże, wykorzystanie go przez Niemców miało na celu przedstawienie Bolszewizmu jako potwornego i destrukcyjnego. Obraz jest pełen symboliki i metafor, mających na celu wzbudzenie strachu i nienawiści do ideologii komunistycznej.  Plakat ten, poprzez przerysowane obrazy, ma na celu demonstrowanie bezwzględności bolszewizmu i jego wpływu na Polaków.  Użycie czerwieni i ciemnych tonów, połączone z odrealnionym, groteskowym stylem, ma wzmocnić efekt psychologiczny i skierować uwagę widza na zagrożenie.",
+  "tags": {
+    "Postacie": [
+      "Mężczyzna",
+      "żołnierz",
+      "szkielet"
+    ],
+    "Obiekty": [
+      "Ogień",
+      "płomienie",
+      "broń",
+      "głowy"
+    ],
+    "Kolory": [
+      "Czerwień",
+      "szarość",
+      "brąz",
+      "czarny"
+    ],
+    "Nastrój": [
+      "Chaos",
+      "destrukcja",
+      "zniszczenie"
+    ],
+    "Emocje": [
+      "Strach",
+      "przerażenie",
+      "groza"
+    ],
+    "Styl": [
+      "Groteskowość",
+      "surrealizm",
+      "propagandowy"
+    ],
+    "Funkcja": [
+      "Propaganda",
+      "ostrzeżenie",
+      "mobilizacja."
+    ]
+  }
+}

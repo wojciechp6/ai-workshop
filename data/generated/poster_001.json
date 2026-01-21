@@ -1,0 +1,41 @@
+{
+  "simple_description": "Plakat przedstawia scenę z zabójstw. Użyto tekstu \"Katyn\" w dużej czcionce. Na obrazku widoczne są ludzie i ciała.  Plakat ma poważny ton.",
+  "research_description": "Plakat niemieckich władz okupacyjnych z 1944 roku jest propagandowym materiałem mającym na celu zmanipulowanie opinii publicznej i ukrycie winy w sprawie katastrofy w Katyniu. Wykorzystuje on obraz zmasakrowanych żołnierzy, aby stworzyć wrażenie ofiar radzieckiej agresji, a jednocześnie oskarżyć Związek Radziecki o odpowiedzialność za zabójstwo. Zastosowane elementy wizualne, takie jak spłaszczone rysy postaci i skupienie się na śmierci, mają na celu wywołanie reakcji emocjonalnej i zniechęcenie do ZSRR. Plakat został prawdopodobnie stworzony z myślą o podtrzymaniu moralnego wsparcia wśród niemieckich obywateli i przedstawieniu sytuacji w sposób jednostronny, faworyzujący stronę niemiecką.  Plakat  ma charakter propagandowy i ma na celu manipulowanie postrzeganiem wydarzeń.",
+  "tags": {
+    "Postacie": [
+      "ofiara",
+      "żołnierz",
+      "mężczyzna"
+    ],
+    "Obiekty": [
+      "ciało",
+      "załoga",
+      "drzewa",
+      "zbroja"
+    ],
+    "Kolory": [
+      "czerwony",
+      "szary",
+      "brązowy"
+    ],
+    "Nastrój": [
+      "grobowy",
+      "ponury"
+    ],
+    "Emocje": [
+      "strach",
+      "żałoba",
+      "obrzydzenie"
+    ],
+    "Styl": [
+      "realizm",
+      "propaganda",
+      "ekspresjonizm"
+    ],
+    "Funkcja": [
+      "informacja",
+      "propaganda",
+      "manipulacja"
+    ]
+  }
+}

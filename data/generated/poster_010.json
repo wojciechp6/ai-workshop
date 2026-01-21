@@ -1,0 +1,46 @@
+{
+  "simple_description": "Plakat przedstawia mężczyznę i rękę z kośćmi. Kolory dominują w odcieniach czerwonego i szarego.  Nastrój jest poważny i alarmujący.  Plakat ma na celu przestrzeganie przed niebezpieczeństwem.",
+  "research_description": "Plakat jest propagandowym obrazem anty-sowieckim z lat 1943 roku, mającym na celu wzbudzenie lęku i obaw w Europie. Wykorzystuje dramatyczną symbolikę wizualną, aby przedstawić katastrofalne skutki ideologii komunistycznej i zbrodni katyńskiej. Użyty styl jest zniekształcony, pełen kontrastów i napięcia, wyraźnie celujący w wywołanie silnych emocji u widza. Całość sugeruje zagrożenie dla Europy, a konkretnie dla jej kultury i wartości, poprzez przedstawienie symbolicznego \"zaurogu\" w postaci leżących kości i dłoni. Plakat  ma na celu ostrzeżenie przed potencjalnym rozprzestrzenianiem się komunizmu i jego konsekwencjami.",
+  "tags": {
+    "Postacie": [
+      "Mężczyzna",
+      "ręka z kośćmi",
+      "dłoń",
+      "twarz"
+    ],
+    "Obiekty": [
+      "Kości",
+      "krajobraz",
+      "szarość",
+      "chmury"
+    ],
+    "Kolory": [
+      "Czerwony",
+      "szarość",
+      "brąz",
+      "ciemny odcień"
+    ],
+    "Nastrój": [
+      "Agresywny",
+      "groźny",
+      "niepokojący"
+    ],
+    "Emocje": [
+      "Strach",
+      "obawa",
+      "wściekłość",
+      "żałoba"
+    ],
+    "Styl": [
+      "Ilustracyjny",
+      "ekspresjonistyczny",
+      "propagandowy"
+    ],
+    "Funkcja": [
+      "Przestroga",
+      "ostrzeżenie",
+      "propaganda",
+      "propagacja idei"
+    ]
+  }
+}

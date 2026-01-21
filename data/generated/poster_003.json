@@ -1,0 +1,52 @@
+{
+  "simple_description": "Plakat przedstawia grupę ludzi w stylu kreskówkowym. Kolory są przede wszystkim szarości i pomarańczowe. Nastrój jest zmotywujący i sugeruje dążenie do celu.",
+  "research_description": "Plakat należy do okresu II wojny światowej, prawdopodobnie z lat 1944. Jest to propaganda wojenna, skierowana do ludności cywilnej. Plakat zachęca do dostaw żywności i produktów, prawdopodobnie dla wojska lub rannych. Styl jest dwuwymiarowy i przypomina stylizowane ilustracje propagandowe, często wykorzystywane w czasie wojny. Plakat łączy elementy realizmu i stylizacji, mające na celu wzbudzenie emocji i motywację do działania.  Wizualnie przedstawia grupę ludzi, którzy za pomocą różnych czynności, takich jak rolowanie beczek, transportowanie kartonów, czy dźwiganie, uczestniczą w dostawach. Ukazane elementy sugerują, że wspólnie pracując, można pomóc w zapewnieniu niezbędnych zasobów.",
+  "tags": {
+    "Postacie": [
+      "mężczyźni",
+      "kobiety",
+      "dzieci",
+      "wojskowy",
+      "symboliczny"
+    ],
+    "Obiekty": [
+      "beczki",
+      "kartony",
+      "zwierzęta (gęsi",
+      "świnie)",
+      "kosze",
+      "prezenty",
+      "napis",
+      "półki",
+      "laska",
+      "zlew"
+    ],
+    "Kolory": [
+      "szarości",
+      "pomarańczowy",
+      "beżowy",
+      "kremowy",
+      "czerwony (elementy napisu)"
+    ],
+    "Nastrój": [
+      "zmotywowanie",
+      "determinacja",
+      "ciężka praca"
+    ],
+    "Emocje": [
+      "determinacja",
+      "odpowiedzialność",
+      "poczucie wspólnoty"
+    ],
+    "Styl": [
+      "kreskówkowy",
+      "propagandowy",
+      "dwuwymiarowy"
+    ],
+    "Funkcja": [
+      "propaganda",
+      "zachęta do dostaw",
+      "podniesienie morale"
+    ]
+  }
+}

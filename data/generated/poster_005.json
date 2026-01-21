@@ -1,0 +1,41 @@
+{
+  "simple_description": "Plakat przedstawia mężczyznę z bronią. Tytuł plakatu ostrzega przed bolszewizmem i zachęca do działania. Użyto ciemnych barw, prawdopodobnie aby wzmocnić wrażenie. Nastrój plakatu jest poważny i zniechęcający.",
+  "research_description": "Plakat z 1944 roku jest typowym przykładem propagandy politycznej, charakterystyczną dla okresu II wojny światowej i powojennej walki ideologicznej.  Ton plakatu jest agresywny i alarmujący, mający na celu mobilizację społeczeństwa przeciwko zagrożeniu bolszewizmu.  Przekaz jest jasny: bolszewizm stanowi realne zagrożenie i wymaga silnej reakcji. Plakat stanowi próbę manipulacji emocjami, budując poczucie zagrożenia i potrzebę jedności narodowej.  Styl jest typowy dla sztuki propagandowej tamtej epoki – prosty, bezpośredni, z silnym naciskiem na obraz i hasło.",
+  "tags": {
+    "Postacie": [
+      "mężczyzna",
+      "żołnierz",
+      "silueta"
+    ],
+    "Obiekty": [
+      "broń",
+      "hasło",
+      "okrągły napis"
+    ],
+    "Kolory": [
+      "czerwony",
+      "czarny",
+      "szarość"
+    ],
+    "Nastrój": [
+      "groźny",
+      "poważny",
+      "ostrzegawczy"
+    ],
+    "Emocje": [
+      "strach",
+      "niepokój",
+      "determinacja"
+    ],
+    "Styl": [
+      "propagandowy",
+      "monumentalny",
+      "zaryskiowany"
+    ],
+    "Funkcja": [
+      "ostrzeżenie",
+      "wezwanie do działania",
+      "propaganda"
+    ]
+  }
+}
