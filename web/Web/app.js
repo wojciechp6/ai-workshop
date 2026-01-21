@@ -214,7 +214,7 @@ function renderDetails(base, gen){
 
       ${baseTagsHtml ? `<h3 class="section-title">Tagi</h3>${baseTagsHtml}` : ""}
 
-      ${tagGroupsHtml ? `<h3 class="section-title">Elementy (tagi) z analizy</h3>${tagGroupsHtml}` : ""}
+      ${tagGroupsHtml ? `<h3 class="section-title">Elementy analizy obiektu</h3>${tagGroupsHtml}` : ""}
 
       ${researchDesc ? `
         <h3 class="section-title">Opis naukowy</h3>
