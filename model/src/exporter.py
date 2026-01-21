@@ -66,6 +66,7 @@ def parse_tags(tags_raw: str):
         key, values = line.split(":", 1)
         key = key.strip()
         value_list = [v.strip() for v in values.split(",") if v.strip()]
+        value_list = [v.strip(';') for v in value_list]
         tags[key] = value_list
     return tags
 
