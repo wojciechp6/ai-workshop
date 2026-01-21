@@ -1,16 +1,14 @@
 ## Run
 ### Frontend
-Run commands:
+In web directory run command:
 ```sh
-cd web
 docker compose up
 ```
 Then open localhost:8080 in your browser.
 
 ### Description generation
-Run commands:
+In model directory run command:
 ```sh
-cd model
 sh run.sh
 ```
-After complete new content should be visible.
+After command complete new content should be visible.
