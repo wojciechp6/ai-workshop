@@ -14,3 +14,5 @@ Then in model directory run command:
 sh run.sh
 ```
 After command complete new content should be visible.
+
+For more details see docs.
